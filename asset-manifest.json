@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ml-react-app/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/ml-react-app/static/js/main.2fee0bab.chunk.js",
+    "main.js.map": "/ml-react-app/static/js/main.2fee0bab.chunk.js.map",
+    "runtime-main.js": "/ml-react-app/static/js/runtime-main.1580dc7c.js",
+    "runtime-main.js.map": "/ml-react-app/static/js/runtime-main.1580dc7c.js.map",
+    "static/js/2.f7853549.chunk.js": "/ml-react-app/static/js/2.f7853549.chunk.js",
+    "static/js/2.f7853549.chunk.js.map": "/ml-react-app/static/js/2.f7853549.chunk.js.map",
+    "static/js/3.58f68248.chunk.js": "/ml-react-app/static/js/3.58f68248.chunk.js",
+    "static/js/3.58f68248.chunk.js.map": "/ml-react-app/static/js/3.58f68248.chunk.js.map",
+    "index.html": "/ml-react-app/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/ml-react-app/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.f7853549.chunk.js.LICENSE.txt": "/ml-react-app/static/js/2.f7853549.chunk.js.LICENSE.txt",
+    "static/media/tiger.c9976d9c.jpg": "/ml-react-app/static/media/tiger.c9976d9c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1580dc7c.js",
+    "static/js/2.f7853549.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.2fee0bab.chunk.js"
+  ]
+}
