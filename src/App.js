@@ -7,6 +7,7 @@ import * as ml5 from "ml5"
 
 function App() {
   const [predictions, setPredictions] = useState([])
+  const [imageURL, setImageURL] = useState("")
 
   const classifyImg = () => {
     const classifier = ml5.imageClassifier("MobileNet", modelLoaded)
@@ -26,20 +27,24 @@ function App() {
 
   useEffect(() => {
     classifyImg()
-  }, [])
+  }, [imageURL])
 
   return (
     <div className="App" style={{ textAlign: "center" }}>
       <header className="App-header">
         <h3>ML with React</h3>
+        <div>
+          <input type="text" alt="image-url-input" style={{ padding: '5px 10px', width: 350, marginBottom: 15 }} onChange={e => setImageURL(e.target.value)} />
+        </div>
         <img
-          src={Tiger}
+          src={imageURL || Tiger}
           alt="tiger"
           id="image"
           style={{ width: "50%", height: "50%" }}
+          crossOrigin="anonymous"
         />
         {predictions?.length > 0 ? (
-          predictions.map((prediction) => <p>{prediction.className}</p>)
+          predictions.map((prediction, index) => <p key={index}>{prediction.className}</p>)
         ) : (
           <div>Loading predictions...</div>
         )}
